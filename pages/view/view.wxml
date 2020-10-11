@@ -1,0 +1,10 @@
+<view class="container">
+<block wx:for="{{postList}}" wx:key="key" wx:for-item="item" wx:for-index="idx">
+<audio  id="{{item.postId}}" poster="{{item.music.coverImg}}" name="{{item.music.title}}" author="{{item.music.title}}" src="{{item.music.url}}"  controls loop></audio>
+<button class="audio-play" id="{{item.postId}}"  bindtap="audioPlay">播放</button>
+<button class="audio-pause" id="{{item.postId}}"  bindtap="audioPause">暂停</button>
+<button class="audio-14" id="{{item.postId}}"  bindtap="audio14">设置当前播放时间为14秒</button>
+<button class="audio-restart" id="{{item.postId}}"  bindtap="audioStart">回到开头</button>
+</block>
+</view>
+

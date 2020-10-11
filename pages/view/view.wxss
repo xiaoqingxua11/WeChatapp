@@ -1,0 +1,12 @@
+audio{
+ display: flex;
+ flex-direction: column;
+}
+.container{
+  background-color: rgb(209, 202, 202);
+}
+.audio-play,.audio-pause,.audio-14,.audio-restart{
+  background-color: rgb(152, 145, 145);
+  border-radius: 25rpx;
+  margin: 20rpx 0;
+}

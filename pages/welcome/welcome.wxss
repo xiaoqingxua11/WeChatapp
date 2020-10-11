@@ -1,0 +1,28 @@
+page{
+  background-color: #87CEEB;
+}
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-avater{
+  margin-top: 350rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+.title{
+  margin-top: 100rpx;
+  font-weight: bold;
+  font-family: MicroSoft Yahei;
+}
+.moto{
+  margin-top: 30px;
+  height: 200rpx;
+  
+}
+.begin{
+  border: 1px solid rgb(21, 20, 20);
+  border-radius: 22rpx;
+}

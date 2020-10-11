@@ -1,0 +1,7 @@
+<view class="container">
+	<image class="user-avater" src="../../images/avatar/1.png"></image>
+	<text class="title">Hello,小范同志&小张同志</text>
+	<view class="moto" bindtap="onTap">
+  <text class="begin">开启恋爱之旅</text>
+	</view>
+</view>

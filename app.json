@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/view/view"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "文与字"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/posts/post",
+      "text": "阅读",
+      "iconPath": "/images/tab/yuedu.png",
+      "selectedIconPath":"/images/tab/yuedu_hl.png"
+    },{
+      "pagePath":"pages/view/view",
+      "text":"歌曲",
+      "iconPath":"/images/tab/dianying.png",
+      "selectedIconPath":"/images/tab/dianying_hl.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
